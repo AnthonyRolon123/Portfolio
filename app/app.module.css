@@ -1,0 +1,150 @@
+.pageContainer {
+    height: 100vh;
+    /* background-image: linear-gradient(to bottom right, #1D7B89, #892B1D); */
+    background-image: linear-gradient(to bottom right, #022D32, #320702);
+    display: grid;
+    grid-template-columns: repeat(10, 10vw);
+    grid-template-rows: 5rem, 100vh;
+}
+
+.nav {
+    position: fixed;
+    grid-row: 1;
+    z-index: 1000;
+}
+
+.page {
+    background-color: var(--lightener);
+    grid-column: 3/9;
+    grid-row: 2;
+    height: 100%;
+    overflow: auto;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.intro {
+    /* height: 40rem; */
+    width: 80%;
+    align-self: center;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid var(--darkener)
+}
+
+.intro h2 {
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.intro p {
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    text-wrap: wrap;
+    padding-right: 1rem;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1rem;
+}
+
+.pfp {
+    padding: 1rem;
+}
+
+.skillsIconContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.experience {
+    width: 80%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.experience > h2:first-of-type {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.jobContainer {
+    width: 100%;
+    color: white;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 2rem;
+}
+
+.jobTitle {
+    width: 100%;
+}
+
+.jobContainer div p {
+    width: 100%;
+    font-size: x-large;
+    text-align: left;
+}
+
+.resumeLink {
+    width: max-content;
+    height: max-content;
+    font-size: large;
+    /* background-color: var(--lightener); */
+    text-decoration: none;
+    font-style: normal;
+    color: white;
+}
+
+.resumeLink:hover {
+    color: #1D7B89;
+}
+
+.projectContainer {
+    width: 80%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.projectContainer > h2:first-of-type {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.projects {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    gap: 2rem;
+}
+
+.description {
+    padding: 1rem;
+    text-align: center;
+    flex: 1;
+    color: white;
+}
