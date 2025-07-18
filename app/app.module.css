@@ -361,6 +361,9 @@
     .image {
         padding: 2rem 1rem;
     }
+    .projectsContainer {
+        font-size: small;
+    }
 }
 
 /* End Experience */
