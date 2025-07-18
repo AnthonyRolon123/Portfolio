@@ -112,7 +112,7 @@ export default function Page() {
                   <div className={styles.projectsText}>
                     <a
                       className={styles.projectsLink}
-                      href="/Anthony_Rolon_Resume.pdf"
+                      href="https://github.com/AnthonyRolon123/PlexDiscordBot"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -130,7 +130,7 @@ export default function Page() {
 
                     <a
                       className={styles.projectsLink}
-                      href="/Anthony_Rolon_Resume.pdf"
+                      href="https://github.com/tirsod/itcapstone"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -148,7 +148,7 @@ export default function Page() {
 
                     <a
                       className={styles.projectsLink}
-                      href="/Anthony_Rolon_Resume.pdf"
+                      href="https://github.com/AnthonyRolon123/Portfolio"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
@@ -261,7 +261,7 @@ export default function Page() {
                         I'm always keeping an eye on my inbox and staying active on LinkedIn
                     </p>
                     <a
-                      href="/Anthony_Rolon_Resume.pdf"
+                      href="mailto:anthonyrolon1234@gmail.com"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
