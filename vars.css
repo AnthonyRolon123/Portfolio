@@ -1,4 +1,5 @@
 :root {
-    --lightener: hsla(0, 0%, 100%, 0.070);
-    --darkener: hsla(0, 0%, 0%, 0.282);
+    --cardColor: rgba(0,0,0,0.2);
+    --tranSpeed: 0.2s;
+    --cardHoverColor: rgba(0,0,0,0.5);
 }
