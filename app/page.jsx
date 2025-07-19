@@ -49,7 +49,7 @@ export default function Page() {
           </div>
           <div className={styles.intro}>
             <h1>Anthony Rolon</h1>
-            <h2>Aspiring software engineer</h2>
+            <h2>Software engineer</h2>
           </div>
         </CardWithShadow>
 
@@ -170,7 +170,7 @@ export default function Page() {
 
               {activeSection === "experience" && section === "experience" ? (
                 <div className={styles.experienceContent}>
-                  <div className={styles.imageContainer}>
+                  <div className={styles.experienceImageContainer}>
                     <Image
                       fill
                       src="/pfpTyping.png"

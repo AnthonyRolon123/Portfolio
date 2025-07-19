@@ -198,6 +198,7 @@
 }
 /* End Contact */
 
+/* Start Projects */
 .projects {
     background: var(--cardColor);
     grid-column: 2/-1;
@@ -242,9 +243,6 @@
     flex: 1;
     gap: 1rem;
 }
-.projectsLink {
-    
-}
 .projectsButton {
     border-radius: 1rem;
     background-color: #c96868;
@@ -265,7 +263,6 @@
 .projectsButton:active {
     background: white;
 }
-
 .projectsSvg {
     height: 6rem;
     width: 6rem;
@@ -279,6 +276,8 @@
     justify-content: center;
     flex: 1;
 }
+
+/* End Projects */
 
 /* Start Experience */
 
@@ -333,6 +332,15 @@
     gap: 2rem;
     overflow-y: scroll;
 }
+.experienceImageContainer {
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+}
+/* End Experience */
 
 @media (max-width: 1600px) {
     .aboutText {
@@ -366,4 +374,147 @@
     }
 }
 
-/* End Experience */
+@media (max-width: 1600px) {
+    .aboutText {
+        font-size: medium;
+        padding: 1rem;
+    }
+    .contactText {
+        font-size: medium;
+        padding: 1rem;
+    }
+    .experienceText {
+        font-size: medium;
+        padding: 1rem;
+    }
+    .experienceTextContainer {
+        padding: 1rem;
+    }
+    .projectsText {
+        font-size: medium;
+        padding: 3rem;
+    }
+    .intro {
+        font-size: medium;
+        padding: 3rem;
+    }
+    .image {
+        padding: 2rem 1rem;
+    }
+    .projectsContainer {
+        font-size: small;
+    }
+}
+
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    padding: 1rem;
+    height: 110vh;
+  }
+
+  .contentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .imageContainer {
+    align-self: center;
+    width: 30%;
+    height: 75%;
+    /* align-self: center; */
+    /* justify-content: center; */
+    /* padding-left: 6rem; */
+    /* padding: 0 3rem; */
+  }
+
+  .image {
+    padding: 2rem 0;
+    aspect-ratio: auto;
+  }
+
+  .button {
+    width: 100%;
+    font-size: medium;
+    height: 2.5rem;
+  }
+
+  .projectsSvg {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .aboutText {
+    /* overflow-y: scroll; */
+    font-size: x-small;
+  }
+  .aboutText h1 {
+    /* overflow-y: scroll; */
+    font-size: small;
+  }
+
+  .contactText,
+  .experienceText,
+  .experienceTextContainer,
+  .intro {
+    font-size: small;
+    padding: 1rem;
+  }
+
+  .projectsContainer p {
+    display: none;
+  }
+  .projectsContainer h2 {
+    font-size: small;
+  }
+  .projectsButton {
+    height: 4rem;
+    width: 8rem;
+    padding: 1rem;
+  }
+  .projectsContent > div {
+    width: 8rem;
+  }
+
+  .aboutActive,
+  .contactActive,
+  .projectsActive,
+  .experienceActive {
+    width: 95%;
+    height: auto;
+    padding-left: 2rem;
+  }
+
+  .about,
+  .contact,
+  .projects,
+  .experience {
+    height: 5rem;
+  }
+
+  .svg {
+    height: 1rem;
+  }
+
+  .button {
+    height: 1.5rem;
+    font-size: x-small;
+  }
+
+  .home {
+    min-height: 15rem;
+    max-height: 15rem;
+    padding-left: 2rem;
+  }
+
+  .experienceImageContainer {
+    align-self: center;
+    width: 30%;
+    height: 60%;
+    /* align-self: center; */
+    /* justify-content: center; */
+    /* padding-left: 6rem; */
+    /* padding: 0 3rem; */
+  }
+}
